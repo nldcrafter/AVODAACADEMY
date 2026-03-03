@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AVODA Academy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<h1>AVODA Academy</h1>
+
+<h2>XP: <span id="xp">0</span></h2>
+<h3>Level: <span id="level">Rookie</span></h3>
+
+<button onclick="renderModule('trade')">Trade</button>
+<button onclick="renderModule('fitness')">Fitness</button>
+
+<div id="moduleContainer"></div>
+
+<script src="dataService.js"></script>
+<script src="brain.js"></script>
+<script src="modules.js"></script>
+<script src="app.js"></script>
+<script>
+renderDashboard();
+</script>
+
+</body>
+                           </html>
